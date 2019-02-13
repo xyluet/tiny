@@ -1,12 +1,25 @@
 {
   "name": "@xyluet/tiny",
   "version": "0.1.0",
-  "description": "",
+  "description": "Removes all spaces from a string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ignore-path .gitignore"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "xyluet",
+    "string",
+    "space"
+  ],
+  "author": "xyluet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyluet/tiny"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
