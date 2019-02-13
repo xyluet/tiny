@@ -11,7 +11,13 @@
     "string",
     "space"
   ],
-  "author": "xyluet",
+  "files": [
+    "index.js"
+  ],
+  "author": {
+    "name": "xyluet",
+    "email": "ali.sunjayaa@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/xyluet/tiny"
