@@ -5,7 +5,7 @@
   "main": "tiny.js",
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
-    "test": "jasmine"
+    "test": "jest"
   },
   "keywords": [
     "xyluet",
@@ -13,7 +13,7 @@
     "space"
   ],
   "files": [
-    "index.js"
+    "tiny.js"
   ],
   "author": {
     "name": "xyluet",
@@ -28,7 +28,7 @@
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
-    "jasmine": "^3.3.1"
+    "jest": "^24.1.0"
   },
   "dependencies": {}
 }
