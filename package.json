@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
     "test": "jest",
-    "test:ci": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test:ci": "jest --coverage && coveralls && codecov"
   },
   "keywords": [
     "xyluet",
@@ -26,6 +26,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "codecov": "^3.3.0",
     "coveralls": "^3.0.3",
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
