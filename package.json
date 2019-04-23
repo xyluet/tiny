@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
     "test": "jest",
-    "test:ci": "jest --coverage && coveralls && codecov"
+    "test:ci": "jest --coverage && cat ./coverage/lcov.info | coveralls | codecov"
   },
   "keywords": [
     "xyluet",
