@@ -1,10 +1,21 @@
 pipeline {
-  agent { docker { image 'node:8.10' } }
-  stages {
-    stage('build') {
-      steps {
-          sh 'npm --version'
-      }
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
     }
-  }
 }
